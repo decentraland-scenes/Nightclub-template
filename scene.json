@@ -88,9 +88,18 @@
       "name": "spawn1",
       "default": true,
       "position": {
-        "x": [40, 60],
-        "y": [2, 8],
-        "z": [70, 80]
+        "x": [
+          40,
+          60
+        ],
+        "y": [
+          2,
+          8
+        ],
+        "z": [
+          70,
+          80
+        ]
       },
       "cameraTarget": {
         "x": 60,
@@ -104,12 +113,14 @@
     "ALLOW_TO_MOVE_PLAYER_INSIDE_SCENE",
     "ALLOW_MEDIA_HOSTNAMES"
   ],
-  "allowedMediaHostnames": ["player.vimeo.com"],
+  "allowedMediaHostnames": [
+    "player.vimeo.com"
+  ],
   "featureToggles": {
     "voiceChat": "enabled",
     "portableExperiences": "enabled"
   },
   "worldConfiguration": {
-    "name": "NicoE.eth"
+    "name": "NicoE.dcl.eth"
   }
 }

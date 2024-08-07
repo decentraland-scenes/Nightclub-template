@@ -1,4 +1,4 @@
-import { MeshRenderer, engine, Material, Transform, VideoPlayer, pointerEventsSystem, InputAction, MeshCollider, Entity } from '@dcl/sdk/ecs'
+import { MeshRenderer, engine, Material, Transform, VideoPlayer, pointerEventsSystem, InputAction, MeshCollider, Entity, TextureWrapMode, MaterialTransparencyMode, TextureFilterMode } from '@dcl/sdk/ecs'
 import { Color4, Quaternion } from '@dcl/sdk/math'
 import { getTriggerEvents, getActionEvents } from '@dcl/asset-packs/dist/events'
 import { TriggerType } from '@dcl/asset-packs'
@@ -17,9 +17,10 @@ export function main() {
 
   const videoPlayerEntity = engine.addEntity()
   VideoPlayer.create(videoPlayerEntity, {
-    src: Videos[3],
+    src: Videos[0],
     playing: true,
-    volume: 1.0
+    volume: 1.0,
+    loop: true
   })
 
   const screen = engine.addEntity()
@@ -57,6 +58,8 @@ export function main() {
   setUpScreenAndButton("buttonScreen4", "screen4", videoPlayerEntity)
   setUpScreenAndButton("buttonScreen5", "screen5", videoPlayerEntity)
   setUpScreenAndButton("buttonScreen6", "screen6", videoPlayerEntity)
+  setUpScreenAndButton("buttonScreen7", "screen7", videoPlayerEntity, true)
+  setUpScreenAndButton("buttonScreen8", "screen8", videoPlayerEntity, true)
 
 
   const lever = engine.getEntityOrNullByName("Lever")
@@ -77,7 +80,7 @@ export function main() {
 }
 
 
-export function setUpScreenAndButton(buttonName: string, screenName: string, videoPlayerEntity: Entity) {
+export function setUpScreenAndButton(buttonName: string, screenName: string, videoPlayerEntity: Entity, isCircle?: boolean) {
 
   const button = engine.getEntityOrNullByName(buttonName)
   const screen = engine.getEntityOrNullByName(screenName)
@@ -85,9 +88,10 @@ export function setUpScreenAndButton(buttonName: string, screenName: string, vid
 
   if (button && screen) {
 
-    const screenData = ScreenData.create(screen, {
+    const screenData = ScreenData.createOrReplace(screen, {
       state: false,
-      videoSource: videoPlayerEntity
+      videoSource: videoPlayerEntity,
+      circleShape: isCircle
     })
 
     const triggers = getTriggerEvents(button)
@@ -103,6 +107,11 @@ export function setUpScreenAndButton(buttonName: string, screenName: string, vid
 
       }
     })
+
+    if (Material.has(screen)) {
+      console.log(Material.get(screen))
+    }
+
   }
 
 }
@@ -117,9 +126,38 @@ export function screenOn(screen: Entity) {
 
 
   Material.deleteFrom(screen)
-  Material.setBasicMaterial(screen, {
-    texture: Material.Texture.Video({ videoPlayerEntity: ScreenData.get(screen).videoSource })
-  })
+
+  if (ScreenData.get(screen).circleShape) {
+
+    Material.setPbrMaterial(screen, {
+      texture: Material.Texture.Video(
+        { videoPlayerEntity: ScreenData.get(screen).videoSource }),
+      emissiveTexture: Material.Texture.Video(
+        { videoPlayerEntity: ScreenData.get(screen).videoSource }),
+      alphaTexture: Material.Texture.Common({
+        src: "assets/scene/circle_mask.png",
+        wrapMode: TextureWrapMode.TWM_MIRROR,
+        filterMode: TextureFilterMode.TFM_BILINEAR
+      }),
+      albedoColor: Color4.create(1, 1, 1, 1),
+      // transparencyMode: MaterialTransparencyMode.MTM_OPAQUE,
+      // alphaTest: 0.5,
+      emissiveColor: Color4.create(1, 1, 1, 1),
+      emissiveIntensity: 0,
+      directIntensity: 1,
+      roughness: 0,
+      specularIntensity: 1,
+      metallic: 0.5,
+      reflectivityColor: Color4.create(1, 1, 1, 1),
+    })
+
+  } else {
+    Material.setBasicMaterial(screen, {
+      texture: Material.Texture.Video({ videoPlayerEntity: ScreenData.get(screen).videoSource }),
+    })
+  }
+
+
 
 }
 
@@ -147,6 +185,10 @@ export function makeAllVideosDifferent() {
 
       turnScreenOff(entity)
 
+      const oldScreenSource = screenData.videoSource
+      if (oldScreenSource) {
+        engine.removeEntity(oldScreenSource)
+      }
 
       const videoIndex = Math.floor(Math.random() * Videos.length)
 
@@ -154,7 +196,8 @@ export function makeAllVideosDifferent() {
       VideoPlayer.create(videoPlayerEntity, {
         src: Videos[videoIndex],
         playing: true,
-        volume: 1.0
+        volume: 1.0,
+        loop: true
       })
 
       screenData.videoSource = videoPlayerEntity
@@ -172,7 +215,8 @@ export function makeAllVideosSame() {
   VideoPlayer.create(videoPlayerEntity, {
     src: Videos[0],
     playing: true,
-    volume: 1.0
+    volume: 1.0,
+    loop: true
   })
 
   for (const [entity] of engine.getEntitiesWith(ScreenData)) {
@@ -187,9 +231,6 @@ export function makeAllVideosSame() {
     if (screenData.state) {
       screenOn(entity)
     }
-
-
-
   }
 
 }
