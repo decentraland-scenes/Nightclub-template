@@ -112,9 +112,15 @@
     "ALLOW_TO_TRIGGER_AVATAR_EMOTE",
     "ALLOW_TO_MOVE_PLAYER_INSIDE_SCENE",
     "ALLOW_MEDIA_HOSTNAMES"
-  ],  
-	"allowedMediaHostnames": [
+  ],
+  "allowedMediaHostnames": [
     "player.vimeo.com"
   ],
-  "featureToggles": {}
+  "featureToggles": {
+    "voiceChat": "enabled",
+    "portableExperiences": "enabled"
+  },
+  "worldConfiguration": {
+    "name": "NicoE.dcl.eth"
+  }
 }
