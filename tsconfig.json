@@ -7,7 +7,7 @@
     "src/**/*.ts",
     "src/**/*.tsx",
     "assets/**/*.ts",
-    "assets/**/*.ts"
+    "assets/**/*.tsx"
   ],
   "extends": "@dcl/sdk/types/tsconfig.ecs7.json"
 }
