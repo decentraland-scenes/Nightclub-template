@@ -85,7 +85,7 @@
   },
   "spawnPoints": [
     {
-      "name": "spawn1",
+      "name": "SpawnArea1",
       "default": true,
       "position": {
         "x": [
