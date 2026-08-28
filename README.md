@@ -4,29 +4,34 @@ A large scene with default art for a nightclub. Contains default art, several an
 
 ## Try it out
 
-**Install the CLI**
+**With the Creator Hub (recommended)**
 
-Download and install the Decentraland CLI by running the following command inside this scene root directory:
+1. Download this repository.
 
-```bash
-npm install @dcl/sdk@next
-```
+2. Install the [Creator Hub](https://decentraland.org/download/creator-hub), the official desktop app for creating, previewing, and publishing Decentraland scenes.
 
-**Previewing the scene**
+3. In the **Scenes** tab, import this scene's root folder.
 
-1. Download this full repository from [sdk7-goerli-plaza](https://github.com/decentraland/sdk7-goerli-plaza/tree/main), including this and several other example scenes on SDK7.
+4. Press **Preview** to explore the scene in Decentraland.
 
-2. Install the [Decentraland Editor](https://docs.decentraland.org/creator/development-guide/sdk7/editor/)
+**With the command line**
 
-3. Open a Visual Studio Code window on this scene's root folder. Not on the root folder of the whole repo, but instead on this sub-folder that belongs to the scene.
-
-4. Open the Decentraland Editor tab, and press **Run Scene**
-
-Alternatively, you can use the command line. Inside this scene root directory run:
+Inside this scene's root directory run:
 
 ```
+npm install
 npm run start
 ```
+
+**With an AI coding assistant**
+
+If you build with an AI coding assistant (Claude Code, Cursor, GitHub Copilot, and others), install the official Decentraland SDK Skills first. They teach your agent verified SDK7 patterns for every topic: scene creation, 3D models, interactivity, UI, multiplayer, deployment, and more.
+
+```
+npx skills add decentraland/sdk-skills
+```
+
+See [Vibe Coding with AI](https://docs.decentraland.org/creator/scenes-sdk7/getting-started/vibe-coding) for the full guide.
 
 ## Copyright info
 
