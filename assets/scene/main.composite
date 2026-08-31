@@ -362,6 +362,804 @@
             },
             "parent": 513
           }
+        },
+        "526": {
+          "json": {
+            "position": {
+              "x": 64,
+              "y": 0,
+              "z": 64
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "parent": 0
+          }
+        },
+        "527": {
+          "json": {
+            "position": {
+              "x": 0,
+              "y": 4.211080074310303,
+              "z": -29.665916442871094
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "parent": 526
+          }
+        },
+        "528": {
+          "json": {
+            "position": {
+              "x": 58.68307252133309,
+              "y": 14.170472282137563,
+              "z": 24.822098587356308
+            },
+            "rotation": {
+              "x": 0.5,
+              "y": -0.5,
+              "z": 0.5,
+              "w": 0.5
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "parent": 526
+          }
+        },
+        "529": {
+          "json": {
+            "position": {
+              "x": 55.99513770868772,
+              "y": 15.053494170520935,
+              "z": 19.376412479165438
+            },
+            "rotation": {
+              "x": 0,
+              "y": -1,
+              "z": 0,
+              "w": 7.549790126404332e-08
+            },
+            "scale": {
+              "x": 0.5476463717239322,
+              "y": 0.5476463717239322,
+              "z": 0.5476463717239322
+            },
+            "parent": 526
+          }
+        },
+        "530": {
+          "json": {
+            "position": {
+              "x": 55.03043510248655,
+              "y": 0.14097185454193095,
+              "z": 20.220425693276766
+            },
+            "rotation": {
+              "x": 0,
+              "y": -1,
+              "z": 0,
+              "w": 7.549790126404332e-08
+            },
+            "scale": {
+              "x": 0.5476463717239322,
+              "y": 0.5476463717239322,
+              "z": 0.5476463717239322
+            },
+            "parent": 526
+          }
+        },
+        "531": {
+          "json": {
+            "position": {
+              "x": -58.68307252133309,
+              "y": 14.170472282137567,
+              "z": 24.822098587356308
+            },
+            "rotation": {
+              "x": -0.5,
+              "y": 0.5,
+              "z": 0.5,
+              "w": 0.5
+            },
+            "scale": {
+              "x": -1,
+              "y": -1,
+              "z": -1
+            },
+            "parent": 526
+          }
+        },
+        "532": {
+          "json": {
+            "position": {
+              "x": -55.99513456499929,
+              "y": 15.053494235840635,
+              "z": 19.37641244889611
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": -1,
+              "w": 1.6292069915380125e-07
+            },
+            "scale": {
+              "x": -0.5476463717239322,
+              "y": -0.5476463717239322,
+              "z": -0.5476463717239322
+            },
+            "parent": 526
+          }
+        },
+        "533": {
+          "json": {
+            "position": {
+              "x": -55.03043195879812,
+              "y": 0.14097191986163082,
+              "z": 20.22042566300744
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": -1,
+              "w": 1.6292069915380125e-07
+            },
+            "scale": {
+              "x": -0.5476463717239322,
+              "y": -0.5476463717239322,
+              "z": -0.5476463717239322
+            },
+            "parent": 526
+          }
+        },
+        "534": {
+          "json": {
+            "position": {
+              "x": 61.498173159699725,
+              "y": 11.305157103873894,
+              "z": 18.56887360461373
+            },
+            "rotation": {
+              "x": 0.5000000596046448,
+              "y": 0.5,
+              "z": 0.5,
+              "w": 0.5
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "parent": 526
+          }
+        },
+        "535": {
+          "json": {
+            "position": {
+              "x": 36.23107582982811,
+              "y": 4.686054280903124,
+              "z": 39.280841601977826
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0.70710688829422,
+              "w": 0.7071066498756409
+            },
+            "scale": {
+              "x": 0.7461942561695825,
+              "y": 0.7461942561695825,
+              "z": 0.7461942561695825
+            },
+            "parent": 526
+          }
+        },
+        "536": {
+          "json": {
+            "position": {
+              "x": -61.498173654429515,
+              "y": 11.305156842255032,
+              "z": 18.568873694926154
+            },
+            "rotation": {
+              "x": -0.5000001788139343,
+              "y": 0.4999998211860657,
+              "z": -0.4999998211860657,
+              "w": 0.5000001788139343
+            },
+            "scale": {
+              "x": -1,
+              "y": -1,
+              "z": -1
+            },
+            "parent": 526
+          }
+        },
+        "537": {
+          "json": {
+            "position": {
+              "x": -36.23107641646436,
+              "y": 4.686052616489247,
+              "z": 39.28084159658381
+            },
+            "rotation": {
+              "x": 0.7071070671081543,
+              "y": -0.7071065902709961,
+              "z": 0,
+              "w": 0
+            },
+            "scale": {
+              "x": -0.7461942561695825,
+              "y": -0.7461942561695825,
+              "z": -0.7461942561695825
+            },
+            "parent": 526
+          }
+        },
+        "538": {
+          "json": {
+            "position": {
+              "x": 47.46344789013296,
+              "y": 19.705141635995563,
+              "z": 34.54914175862367
+            },
+            "rotation": {
+              "x": -0.5,
+              "y": -0.5,
+              "z": 0.5,
+              "w": 0.5000000596046448
+            },
+            "scale": {
+              "x": 0.7461942561695825,
+              "y": 0.7461942561695825,
+              "z": 0.7461942561695825
+            },
+            "parent": 526
+          }
+        },
+        "539": {
+          "json": {
+            "position": {
+              "x": 10.866401672363281,
+              "y": 6.564449356279592,
+              "z": -41.44044586031459
+            },
+            "rotation": {
+              "x": 0.7071068286895752,
+              "y": 0,
+              "z": 0,
+              "w": 0.7071068286895752
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "parent": 526
+          }
+        },
+        "540": {
+          "json": {
+            "position": {
+              "x": 55.33742904663086,
+              "y": 14.615190420355798,
+              "z": 28.63430797282923
+            },
+            "rotation": {
+              "x": -1,
+              "y": 0,
+              "z": 0,
+              "w": 1.6292067073209182e-07
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "parent": 526
+          }
+        },
+        "541": {
+          "json": {
+            "position": {
+              "x": 51.08155822753906,
+              "y": 29.84843150159359,
+              "z": 28.63430797282923
+            },
+            "rotation": {
+              "x": -1,
+              "y": 0,
+              "z": 0,
+              "w": 1.6292067073209182e-07
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "parent": 526
+          }
+        },
+        "542": {
+          "json": {
+            "position": {
+              "x": -55.33742904663086,
+              "y": 14.615190420355798,
+              "z": 28.634307861328125
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "scale": {
+              "x": -1,
+              "y": -1,
+              "z": -1
+            },
+            "parent": 526
+          }
+        },
+        "543": {
+          "json": {
+            "position": {
+              "x": -51.08155822753906,
+              "y": 29.84843150159359,
+              "z": 28.634307861328125
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "scale": {
+              "x": -1,
+              "y": -1,
+              "z": -1
+            },
+            "parent": 526
+          }
+        },
+        "544": {
+          "json": {
+            "position": {
+              "x": 52.75699996948242,
+              "y": 10.939100563983573,
+              "z": 30.84674385125325
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "parent": 526
+          }
+        },
+        "545": {
+          "json": {
+            "position": {
+              "x": 34.63691330196674,
+              "y": 10.644584000568045,
+              "z": 30.83197471564128
+            },
+            "rotation": {
+              "x": 0,
+              "y": 1,
+              "z": 0,
+              "w": 1.6292068494294654e-07
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "parent": 526
+          }
+        },
+        "546": {
+          "json": {
+            "position": {
+              "x": -31.17253875732422,
+              "y": 10.939100563983573,
+              "z": 30.84674385125325
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "parent": 526
+          }
+        },
+        "547": {
+          "json": {
+            "position": {
+              "x": -49.2926254248399,
+              "y": 10.644584000568045,
+              "z": 30.83197471564128
+            },
+            "rotation": {
+              "x": 0,
+              "y": 1,
+              "z": 0,
+              "w": 1.6292068494294654e-07
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "parent": 526
+          }
+        },
+        "548": {
+          "json": {
+            "position": {
+              "x": 43.06911754608154,
+              "y": 12.639596939086914,
+              "z": 30.85343360900879
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "parent": 526
+          }
+        },
+        "549": {
+          "json": {
+            "position": {
+              "x": -40.86681079864502,
+              "y": 12.654422760009766,
+              "z": 30.84345245361328
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "parent": 526
+          }
+        },
+        "550": {
+          "json": {
+            "position": {
+              "x": 46.17826080562885,
+              "y": 10.399053369954345,
+              "z": 30.83197471564128
+            },
+            "rotation": {
+              "x": 0,
+              "y": 1,
+              "z": 0,
+              "w": 1.6292068494294654e-07
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "parent": 526
+          }
+        },
+        "551": {
+          "json": {
+            "position": {
+              "x": 39.844425201416016,
+              "y": 10.354439531758544,
+              "z": 30.84674385125325
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "parent": 526
+          }
+        },
+        "552": {
+          "json": {
+            "position": {
+              "x": -37.75127792117779,
+              "y": 10.399053369954345,
+              "z": 30.83197471564128
+            },
+            "rotation": {
+              "x": 0,
+              "y": 1,
+              "z": 0,
+              "w": 1.6292068494294654e-07
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "parent": 526
+          }
+        },
+        "553": {
+          "json": {
+            "position": {
+              "x": -44.085113525390625,
+              "y": 10.354439531758544,
+              "z": 30.84674385125325
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "parent": 526
+          }
+        },
+        "554": {
+          "json": {
+            "position": {
+              "x": 61.35936392362059,
+              "y": 8.715518818295095,
+              "z": -1.0677663106034339
+            },
+            "rotation": {
+              "x": 0,
+              "y": -0.7071068286895752,
+              "z": 0,
+              "w": 0.7071068286895752
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "parent": 526
+          }
+        },
+        "555": {
+          "json": {
+            "position": {
+              "x": 62.66929207995645,
+              "y": 10.876971111691091,
+              "z": -12.070723526319982
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0.7071065902709961,
+              "z": 0,
+              "w": 0.7071069478988647
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "parent": 526
+          }
+        },
+        "556": {
+          "json": {
+            "position": {
+              "x": -61.35936392362059,
+              "y": 8.715517599637463,
+              "z": -1.0677663069655359
+            },
+            "rotation": {
+              "x": -0.7071068286895752,
+              "y": 0,
+              "z": 0.7071068286895752,
+              "w": 0
+            },
+            "scale": {
+              "x": -1,
+              "y": -1,
+              "z": -1
+            },
+            "parent": 526
+          }
+        },
+        "557": {
+          "json": {
+            "position": {
+              "x": -62.66929207995645,
+              "y": 10.876971422149193,
+              "z": -12.070723527246752
+            },
+            "rotation": {
+              "x": 0.7071069478988647,
+              "y": 0,
+              "z": 0.7071065902709961,
+              "w": 0
+            },
+            "scale": {
+              "x": -1,
+              "y": -1,
+              "z": -1
+            },
+            "parent": 526
+          }
+        },
+        "558": {
+          "json": {
+            "position": {
+              "x": 61.93091546252481,
+              "y": 8.879831001162529,
+              "z": -5.398566238722326
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0.7071065902709961,
+              "z": 0,
+              "w": 0.7071069478988647
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "parent": 526
+          }
+        },
+        "559": {
+          "json": {
+            "position": {
+              "x": 62.259075534789645,
+              "y": 9.64513175189495,
+              "z": -8.926459323387254
+            },
+            "rotation": {
+              "x": 0,
+              "y": -0.7071070671081543,
+              "z": 0,
+              "w": 0.7071064710617065
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "parent": 526
+          }
+        },
+        "560": {
+          "json": {
+            "position": {
+              "x": -61.93091546252481,
+              "y": 8.8798313111058,
+              "z": -5.398566239649096
+            },
+            "rotation": {
+              "x": 0.7071069478988647,
+              "y": 0,
+              "z": 0.7071065902709961,
+              "w": 0
+            },
+            "scale": {
+              "x": -1,
+              "y": -1,
+              "z": -1
+            },
+            "parent": 526
+          }
+        },
+        "561": {
+          "json": {
+            "position": {
+              "x": -62.259075534789645,
+              "y": 9.645132061838545,
+              "z": -8.92645931746702
+            },
+            "rotation": {
+              "x": -0.7071066498756409,
+              "y": 0,
+              "z": 0.70710688829422,
+              "w": 0
+            },
+            "scale": {
+              "x": -1,
+              "y": -1,
+              "z": -1
+            },
+            "parent": 526
+          }
+        },
+        "562": {
+          "json": {
+            "position": {
+              "x": 62.08003234863281,
+              "y": 13.001784324645996,
+              "z": -7.544485032558441
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "parent": 526
+          }
+        },
+        "563": {
+          "json": {
+            "position": {
+              "x": -62.08003234863281,
+              "y": 13.001784324645996,
+              "z": -7.544485032558441
+            },
+            "rotation": {
+              "x": 1,
+              "y": 0,
+              "z": 0,
+              "w": 0
+            },
+            "scale": {
+              "x": -1,
+              "y": -1,
+              "z": -1
+            },
+            "parent": 526
+          }
         }
       }
     },
@@ -376,7 +1174,380 @@
       "data": {
         "525": {
           "json": {
-            "states": []
+            "states": [
+              {
+                "clip": "Smoke_Neutral",
+                "playing": false
+              },
+              {
+                "clip": "Smoke_V01",
+                "playing": false
+              },
+              {
+                "clip": "Smoke_V02",
+                "playing": false
+              },
+              {
+                "clip": "Cylinder.034",
+                "playing": false
+              },
+              {
+                "clip": "Cylinder.051_collider",
+                "playing": false
+              }
+            ]
+          }
+        },
+        "515": {
+          "json": {
+            "states": [
+              {
+                "clip": "Animation",
+                "playing": false
+              }
+            ]
+          }
+        },
+        "516": {
+          "json": {
+            "states": [
+              {
+                "clip": "Party Button_LOW",
+                "playing": false
+              },
+              {
+                "clip": "EmptyPartyButton",
+                "playing": false
+              },
+              {
+                "clip": "ButtonStatic",
+                "playing": false
+              },
+              {
+                "clip": "ButtonSwitch",
+                "playing": false
+              },
+              {
+                "clip": "EmptyPartyButton.001",
+                "playing": false
+              },
+              {
+                "clip": "ButtonStatic.001",
+                "playing": false
+              },
+              {
+                "clip": "ButtonSwitch.001",
+                "playing": false
+              },
+              {
+                "clip": "EmptyPartyButton.002",
+                "playing": false
+              },
+              {
+                "clip": "ButtonStatic.002",
+                "playing": false
+              },
+              {
+                "clip": "ButtonSwitch.002",
+                "playing": false
+              },
+              {
+                "clip": "EmptyPartyButton.003",
+                "playing": false
+              },
+              {
+                "clip": "ButtonStatic.003",
+                "playing": false
+              },
+              {
+                "clip": "ButtonSwitch.003",
+                "playing": false
+              },
+              {
+                "clip": "EmptyPartyButton.004",
+                "playing": false
+              },
+              {
+                "clip": "ButtonStatic.004",
+                "playing": false
+              },
+              {
+                "clip": "ButtonSwitch.004",
+                "playing": false
+              },
+              {
+                "clip": "EmptyPartyButton.005",
+                "playing": false
+              },
+              {
+                "clip": "ButtonStatic.005",
+                "playing": false
+              },
+              {
+                "clip": "ButtonSwitch.005",
+                "playing": false
+              },
+              {
+                "clip": "EmptyPartyButton.006",
+                "playing": false
+              },
+              {
+                "clip": "ButtonStatic.006",
+                "playing": false
+              },
+              {
+                "clip": "ButtonSwitch.006",
+                "playing": false
+              },
+              {
+                "clip": "EmptyPartyButton.007",
+                "playing": false
+              },
+              {
+                "clip": "ButtonStatic.007",
+                "playing": false
+              },
+              {
+                "clip": "ButtonSwitch.007",
+                "playing": false
+              },
+              {
+                "clip": "EmptyPartyButton.008",
+                "playing": false
+              },
+              {
+                "clip": "ButtonStatic.008",
+                "playing": false
+              },
+              {
+                "clip": "ButtonSwitch.008",
+                "playing": false
+              },
+              {
+                "clip": "EmptyPartyButton.009",
+                "playing": false
+              },
+              {
+                "clip": "ButtonStatic.009",
+                "playing": false
+              },
+              {
+                "clip": "ButtonSwitch.009",
+                "playing": false
+              },
+              {
+                "clip": "EmptyPartyButton.010",
+                "playing": false
+              },
+              {
+                "clip": "ButtonStatic.010",
+                "playing": false
+              },
+              {
+                "clip": "ButtonSwitch.010",
+                "playing": false
+              },
+              {
+                "clip": "EmptyPartyButton.011",
+                "playing": false
+              },
+              {
+                "clip": "ButtonStatic.011",
+                "playing": false
+              },
+              {
+                "clip": "ButtonSwitch.012",
+                "playing": false
+              }
+            ]
+          }
+        },
+        "518": {
+          "json": {
+            "states": [
+              {
+                "clip": "TL_Neutral",
+                "playing": false
+              },
+              {
+                "clip": "TP_Simple_10fps",
+                "playing": false
+              },
+              {
+                "clip": "TP_Simple_20fps",
+                "playing": false
+              },
+              {
+                "clip": "TP_V01_10fps",
+                "playing": false
+              },
+              {
+                "clip": "TP_V01_20fps",
+                "playing": false
+              },
+              {
+                "clip": "TP_V02_30pfs",
+                "playing": false
+              },
+              {
+                "clip": "TP_V02_60pfs",
+                "playing": false
+              },
+              {
+                "clip": "Cylinder.036",
+                "playing": false
+              }
+            ]
+          }
+        },
+        "519": {
+          "json": {
+            "states": [
+              {
+                "clip": "Animation",
+                "playing": false
+              }
+            ]
+          }
+        },
+        "520": {
+          "json": {
+            "states": [
+              {
+                "clip": "LB_Hide",
+                "playing": false
+              },
+              {
+                "clip": "LB_Neutral",
+                "playing": false
+              },
+              {
+                "clip": "LB_Rise",
+                "playing": false
+              },
+              {
+                "clip": "LB_V01",
+                "playing": false
+              },
+              {
+                "clip": "LB_V02",
+                "playing": false
+              },
+              {
+                "clip": "LB_V03",
+                "playing": false
+              },
+              {
+                "clip": "LB_V04",
+                "playing": false
+              }
+            ]
+          }
+        },
+        "521": {
+          "json": {
+            "states": [
+              {
+                "clip": "RL_T_Neutral",
+                "playing": false
+              },
+              {
+                "clip": "RL_T_On",
+                "playing": false
+              },
+              {
+                "clip": "RL_T_V01",
+                "playing": false
+              },
+              {
+                "clip": "RL_T_V02",
+                "playing": false
+              },
+              {
+                "clip": "RL_T_V03",
+                "playing": false
+              },
+              {
+                "clip": "RL_T_V04",
+                "playing": false
+              },
+              {
+                "clip": "RL_T_V05",
+                "playing": false
+              }
+            ]
+          }
+        },
+        "522": {
+          "json": {
+            "states": [
+              {
+                "clip": "RL_B_Neutral",
+                "playing": false
+              },
+              {
+                "clip": "RL_B_Rise",
+                "playing": false
+              },
+              {
+                "clip": "RL_B_V01",
+                "playing": false
+              },
+              {
+                "clip": "RL_B_V02",
+                "playing": false
+              },
+              {
+                "clip": "RL_B_V03",
+                "playing": false
+              },
+              {
+                "clip": "RL_B_V04",
+                "playing": false
+              },
+              {
+                "clip": "RL_B_V05",
+                "playing": false
+              },
+              {
+                "clip": "Cube.040",
+                "playing": false
+              }
+            ]
+          }
+        },
+        "523": {
+          "json": {
+            "states": [
+              {
+                "clip": "activate",
+                "playing": false
+              },
+              {
+                "clip": "deactivate",
+                "playing": false
+              },
+              {
+                "clip": "Logo_Action",
+                "playing": false
+              },
+              {
+                "clip": "StageLights_02",
+                "playing": false
+              },
+              {
+                "clip": "Take 001_Armature.012",
+                "playing": false
+              },
+              {
+                "clip": "Siren_Base",
+                "playing": false
+              },
+              {
+                "clip": "Siren_Lights",
+                "playing": false
+              }
+            ]
           }
         }
       }
@@ -453,6 +1624,191 @@
         "525": {
           "json": {
             "src": "assets/Effects/smokeMachineB.glb"
+          }
+        },
+        "527": {
+          "json": {
+            "src": "assets/models/props/StageSpeakers.glb"
+          }
+        },
+        "528": {
+          "json": {
+            "src": "assets/models/props/LightPillar.glb"
+          }
+        },
+        "529": {
+          "json": {
+            "src": "assets/models/props/LightPillar.glb"
+          }
+        },
+        "530": {
+          "json": {
+            "src": "assets/models/props/LightPillar.glb"
+          }
+        },
+        "531": {
+          "json": {
+            "src": "assets/models/props/LightPillar.glb"
+          }
+        },
+        "532": {
+          "json": {
+            "src": "assets/models/props/LightPillar.glb"
+          }
+        },
+        "533": {
+          "json": {
+            "src": "assets/models/props/LightPillar.glb"
+          }
+        },
+        "534": {
+          "json": {
+            "src": "assets/models/props/AdScreen.glb"
+          }
+        },
+        "535": {
+          "json": {
+            "src": "assets/models/props/AdScreen.glb"
+          }
+        },
+        "536": {
+          "json": {
+            "src": "assets/models/props/AdScreen.glb"
+          }
+        },
+        "537": {
+          "json": {
+            "src": "assets/models/props/AdScreen.glb"
+          }
+        },
+        "538": {
+          "json": {
+            "src": "assets/models/props/AdScreen.glb"
+          }
+        },
+        "539": {
+          "json": {
+            "src": "assets/models/props/RoundPodium.glb"
+          }
+        },
+        "540": {
+          "json": {
+            "src": "assets/models/props/RoundPodium.glb"
+          }
+        },
+        "541": {
+          "json": {
+            "src": "assets/models/props/RoundPodium.glb"
+          }
+        },
+        "542": {
+          "json": {
+            "src": "assets/models/props/RoundPodium.glb"
+          }
+        },
+        "543": {
+          "json": {
+            "src": "assets/models/props/RoundPodium.glb"
+          }
+        },
+        "544": {
+          "json": {
+            "src": "assets/models/props/BarStoolA.glb"
+          }
+        },
+        "545": {
+          "json": {
+            "src": "assets/models/props/BarStoolA.glb"
+          }
+        },
+        "546": {
+          "json": {
+            "src": "assets/models/props/BarStoolA.glb"
+          }
+        },
+        "547": {
+          "json": {
+            "src": "assets/models/props/BarStoolA.glb"
+          }
+        },
+        "548": {
+          "json": {
+            "src": "assets/models/props/TrussA.glb"
+          }
+        },
+        "549": {
+          "json": {
+            "src": "assets/models/props/TrussA.glb"
+          }
+        },
+        "550": {
+          "json": {
+            "src": "assets/models/props/BarStoolB.glb"
+          }
+        },
+        "551": {
+          "json": {
+            "src": "assets/models/props/BarStoolB.glb"
+          }
+        },
+        "552": {
+          "json": {
+            "src": "assets/models/props/BarStoolB.glb"
+          }
+        },
+        "553": {
+          "json": {
+            "src": "assets/models/props/BarStoolB.glb"
+          }
+        },
+        "554": {
+          "json": {
+            "src": "assets/models/props/BarStoolC.glb"
+          }
+        },
+        "555": {
+          "json": {
+            "src": "assets/models/props/BarStoolC.glb"
+          }
+        },
+        "556": {
+          "json": {
+            "src": "assets/models/props/BarStoolC.glb"
+          }
+        },
+        "557": {
+          "json": {
+            "src": "assets/models/props/BarStoolC.glb"
+          }
+        },
+        "558": {
+          "json": {
+            "src": "assets/models/props/BarStoolD.glb"
+          }
+        },
+        "559": {
+          "json": {
+            "src": "assets/models/props/BarStoolD.glb"
+          }
+        },
+        "560": {
+          "json": {
+            "src": "assets/models/props/BarStoolD.glb"
+          }
+        },
+        "561": {
+          "json": {
+            "src": "assets/models/props/BarStoolD.glb"
+          }
+        },
+        "562": {
+          "json": {
+            "src": "assets/models/props/TrussB.glb"
+          }
+        },
+        "563": {
+          "json": {
+            "src": "assets/models/props/TrussB.glb"
           }
         }
       }
@@ -533,6 +1889,196 @@
         "525": {
           "json": {
             "value": "smokeMachineB.glb"
+          }
+        },
+        "526": {
+          "json": {
+            "value": "Props"
+          }
+        },
+        "527": {
+          "json": {
+            "value": "Stage Speakers"
+          }
+        },
+        "528": {
+          "json": {
+            "value": "Light Pillar 1"
+          }
+        },
+        "529": {
+          "json": {
+            "value": "Light Pillar 2"
+          }
+        },
+        "530": {
+          "json": {
+            "value": "Light Pillar 3"
+          }
+        },
+        "531": {
+          "json": {
+            "value": "Light Pillar 4"
+          }
+        },
+        "532": {
+          "json": {
+            "value": "Light Pillar 5"
+          }
+        },
+        "533": {
+          "json": {
+            "value": "Light Pillar 6"
+          }
+        },
+        "534": {
+          "json": {
+            "value": "Ad Screen 1"
+          }
+        },
+        "535": {
+          "json": {
+            "value": "Ad Screen 2"
+          }
+        },
+        "536": {
+          "json": {
+            "value": "Ad Screen 3"
+          }
+        },
+        "537": {
+          "json": {
+            "value": "Ad Screen 4"
+          }
+        },
+        "538": {
+          "json": {
+            "value": "Ad Screen 5"
+          }
+        },
+        "539": {
+          "json": {
+            "value": "Round Podium 1"
+          }
+        },
+        "540": {
+          "json": {
+            "value": "Round Podium 2"
+          }
+        },
+        "541": {
+          "json": {
+            "value": "Round Podium 3"
+          }
+        },
+        "542": {
+          "json": {
+            "value": "Round Podium 4"
+          }
+        },
+        "543": {
+          "json": {
+            "value": "Round Podium 5"
+          }
+        },
+        "544": {
+          "json": {
+            "value": "Bar Stool A 1"
+          }
+        },
+        "545": {
+          "json": {
+            "value": "Bar Stool A 2"
+          }
+        },
+        "546": {
+          "json": {
+            "value": "Bar Stool A 3"
+          }
+        },
+        "547": {
+          "json": {
+            "value": "Bar Stool A 4"
+          }
+        },
+        "548": {
+          "json": {
+            "value": "Truss A 1"
+          }
+        },
+        "549": {
+          "json": {
+            "value": "Truss A 2"
+          }
+        },
+        "550": {
+          "json": {
+            "value": "Bar Stool B 1"
+          }
+        },
+        "551": {
+          "json": {
+            "value": "Bar Stool B 2"
+          }
+        },
+        "552": {
+          "json": {
+            "value": "Bar Stool B 3"
+          }
+        },
+        "553": {
+          "json": {
+            "value": "Bar Stool B 4"
+          }
+        },
+        "554": {
+          "json": {
+            "value": "Bar Stool C 1"
+          }
+        },
+        "555": {
+          "json": {
+            "value": "Bar Stool C 2"
+          }
+        },
+        "556": {
+          "json": {
+            "value": "Bar Stool C 3"
+          }
+        },
+        "557": {
+          "json": {
+            "value": "Bar Stool C 4"
+          }
+        },
+        "558": {
+          "json": {
+            "value": "Bar Stool D 1"
+          }
+        },
+        "559": {
+          "json": {
+            "value": "Bar Stool D 2"
+          }
+        },
+        "560": {
+          "json": {
+            "value": "Bar Stool D 3"
+          }
+        },
+        "561": {
+          "json": {
+            "value": "Bar Stool D 4"
+          }
+        },
+        "562": {
+          "json": {
+            "value": "Truss B 1"
+          }
+        },
+        "563": {
+          "json": {
+            "value": "Truss B 2"
           }
         }
       }
@@ -1494,6 +3040,12 @@
                 "children": [
                   513,
                   514,
+                  526
+                ]
+              },
+              {
+                "entity": 513,
+                "children": [
                   515,
                   516,
                   517,
@@ -1506,14 +3058,6 @@
                   524,
                   525
                 ]
-              },
-              {
-                "entity": 513,
-                "children": []
-              },
-              {
-                "entity": 514,
-                "children": []
               },
               {
                 "entity": 515,
@@ -1557,7 +3101,200 @@
               },
               {
                 "entity": 525,
-                "open": true,
+                "children": []
+              },
+              {
+                "entity": 514,
+                "children": []
+              },
+              {
+                "entity": 526,
+                "children": [
+                  527,
+                  528,
+                  529,
+                  530,
+                  531,
+                  532,
+                  533,
+                  534,
+                  535,
+                  536,
+                  537,
+                  538,
+                  539,
+                  540,
+                  541,
+                  542,
+                  543,
+                  544,
+                  545,
+                  546,
+                  547,
+                  548,
+                  549,
+                  550,
+                  551,
+                  552,
+                  553,
+                  554,
+                  555,
+                  556,
+                  557,
+                  558,
+                  559,
+                  560,
+                  561,
+                  562,
+                  563
+                ]
+              },
+              {
+                "entity": 527,
+                "children": []
+              },
+              {
+                "entity": 528,
+                "children": []
+              },
+              {
+                "entity": 529,
+                "children": []
+              },
+              {
+                "entity": 530,
+                "children": []
+              },
+              {
+                "entity": 531,
+                "children": []
+              },
+              {
+                "entity": 532,
+                "children": []
+              },
+              {
+                "entity": 533,
+                "children": []
+              },
+              {
+                "entity": 534,
+                "children": []
+              },
+              {
+                "entity": 535,
+                "children": []
+              },
+              {
+                "entity": 536,
+                "children": []
+              },
+              {
+                "entity": 537,
+                "children": []
+              },
+              {
+                "entity": 538,
+                "children": []
+              },
+              {
+                "entity": 539,
+                "children": []
+              },
+              {
+                "entity": 540,
+                "children": []
+              },
+              {
+                "entity": 541,
+                "children": []
+              },
+              {
+                "entity": 542,
+                "children": []
+              },
+              {
+                "entity": 543,
+                "children": []
+              },
+              {
+                "entity": 544,
+                "children": []
+              },
+              {
+                "entity": 545,
+                "children": []
+              },
+              {
+                "entity": 546,
+                "children": []
+              },
+              {
+                "entity": 547,
+                "children": []
+              },
+              {
+                "entity": 548,
+                "children": []
+              },
+              {
+                "entity": 549,
+                "children": []
+              },
+              {
+                "entity": 550,
+                "children": []
+              },
+              {
+                "entity": 551,
+                "children": []
+              },
+              {
+                "entity": 552,
+                "children": []
+              },
+              {
+                "entity": 553,
+                "children": []
+              },
+              {
+                "entity": 554,
+                "children": []
+              },
+              {
+                "entity": 555,
+                "children": []
+              },
+              {
+                "entity": 556,
+                "children": []
+              },
+              {
+                "entity": 557,
+                "children": []
+              },
+              {
+                "entity": 558,
+                "children": []
+              },
+              {
+                "entity": 559,
+                "children": []
+              },
+              {
+                "entity": 560,
+                "children": []
+              },
+              {
+                "entity": 561,
+                "children": []
+              },
+              {
+                "entity": 562,
+                "children": []
+              },
+              {
+                "entity": 563,
                 "children": []
               },
               {
